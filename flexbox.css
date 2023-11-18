@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body{
+    background-color: chocolate;
+    background-image: url(https://img.freepik.com/free-photo/design-space-abstract-earth-tone-background_53876-108331.jpg);
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.column{
+    display: flex;
+    width: 330px;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    height: 50%;
+}
+
+.pink{
+        width: 150px;
+        height: 150px;
+        background-color: rgb(94, 137, 156);
+        background-image: url(https://img.freepik.com/free-photo/design-space-abstract-earth-tone-background_53876-108331.jpg);
+        margin: 5px;
+        border-radius: 10px;
+        border: 2px solid rgb(94, 137, 156);
+}
+
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.pink2{
+    color: rgb(42, 165, 149);
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+@media (max-width: 400px){
+    .pink{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(94, 137, 156);
+        /* margin: 5px; */
+        border-radius: 20px;
+        text-align: center;
+    }
+    .column{
+        width: 300px;
+        height: 50%;
+    }
+}
+
+/* @media (max-width: 600px){
+    .pink{
+        display: flex;
+        width: 300px;
+        flex-wrap: wrap;
+        height: 300px;
+        background-color: rgb(94, 137, 156);
+        border-radius: 20px;
+        text-align: center;
+    }
+    .column{
+        width: 300px;
+        height: 50%;
+    }
+} */
